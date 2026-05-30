@@ -1,6 +1,6 @@
 pipeline {
 
-    agent { label 'micro3' }
+    agent { label 'newestlabel' }
 
     environment {
         DOCKERHUB_CREDENTIALS = 'mydockerhub_cred'
